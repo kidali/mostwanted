@@ -1,0 +1,120 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<title>Wanted.com</title>
+<link href="jquery.mobile-1.0a3.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-1.5.min.js" type="text/javascript"></script>
+<script src="jquery.mobile-1.0a3.min.js" type="text/javascript"></script>
+</head> 
+<style type="text/css">
+.cont{
+  width:70px;	
+  padding-right:10px;
+}
+</style>
+<body> 
+
+<div data-role="page" id="page" data-theme="a">
+	<div data-role="header">
+		<h1>Most Wanted</h1>
+	</div>
+	<div data-role="content">	
+    <div class="cont">
+    
+    <img src="img/images2/wanted.png"/>
+    
+    </div>
+    
+    <nav data-role="navbar">
+		<ul>
+			<li><a href="#home" data-icon="home">Home</a></li>
+            <li><a href="#wanted" data-icon="grid">Wanted</a></li>
+			<li><a href="#page4" data-icon="info">Info</a></li>
+		</ul>		
+        </nav>
+	</div>
+	<div data-role="footer">
+		<h4>&copy; 2014</h4>
+	</div>
+</div>
+
+<div data-role="page" id="home" data-theme="a">
+	<div data-role="header">
+		<h1>Home</h1>
+	</div>
+	<div data-role="content">	
+    <div id="topMenu">
+    <nav data-role="navbar">
+<ul>
+<li><a href="#" data-icon="back" class="ui-btn-active">Back</a></li>
+<li><a href="#wanted" data-icon="grid">Wanted</a></li>
+<li><a href="#" data-icon="alert">Notices</a></li>
+<li><a href="#" data-icon="info">Info</a></li>
+<li><a href="#" data-icon="contact">Contact</a></li>
+</ul>
+</nav>
+
+</div><br/>
+<div id="search">
+<input type="search" name="">
+</div><br/>
+		<div id="top">
+        <center>
+        <img src="img/images2/kony.jpg"/>
+        <h4>Kony Munyau</h4>
+        </center>
+        </div><hr>
+        <div id="bottom">
+        <nav data-role="navbar">
+         <ul>
+         
+           <li><a href="#" ><img src="img/images2/ann.jpg"/><br/>Ann</a></li>
+            <li><a href="#" ><img src="img/images2/carine.jpg"/><br/>Carine</a></li>
+			<li><a href="#" ><img src="img/images2/antonio.jpg"/><br/>Antonio</a></li>
+            
+         </ul>
+        </nav>
+        </div>	
+        <a href="#wanted"><button data-icon="forward">More</button></a>
+	</div>
+	<div data-role="footer">
+		<h4>&copy; 2014</h4>
+	</div>
+</div>
+
+<div data-role="page" id="wanted" data-theme="a">
+
+	<div data-role="header">
+		<h1>Wanted</h1>
+       	<h1 style="font-family:Gabriela">Missing persons</h1>
+      <a href="#home" data-rel="popup" data-role="button" data-inline="true" data-transition="slideup" data-icon="back" data-theme="e">Actions</a>
+	</div>
+	<div data-role="content">	
+    <div id="search">
+    <input type="search" id="searchInput" name="search"/>
+    </div><br/>
+		 <nav data-role="navbar">
+         
+         <ul>
+            <li><a href="#ann" class="ui-btn ui-btn-inline ui-corner-all ui-shadow" ><img src="img/images2/ann.jpg"/><br/>Ann</a></li>
+			<li><a href="#" ><img src="img/images2/carine.jpg"/><br/>Carine</a></li>
+			<li><a href="#" ><img src="img/images2/antonio.jpg"/><br/>Antonio</a></li>
+            <li><a href="#" ><img src="img/images2/annette.jpg"/><br/>Annette</a></li>
+            <li><a href="#" ><img src="img/images2/catherine.jpg"><br/>Catherine</a></li>
+			<li><a href="#" ><img src="img/images2/christina.jpg"/><br/>Christina</a></li>
+            <li><a href="#" ><img src="img/images2/ann.jpg"/><br/>Ann</a></li>
+            <li><a href="#" ><img src="img/images2/carine.jpg"/><br/>Carine</a></li>
+			
+         </ul>
+        </nav>
+	</div>
+	<div data-role="footer">
+		<h4>&copy;2014</h4>
+	</div>
+</div>
+
+
+</body>
+</html>
